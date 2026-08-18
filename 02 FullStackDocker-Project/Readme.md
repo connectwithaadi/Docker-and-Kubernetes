@@ -630,9 +630,6 @@ Docker Desktop showing the PostgreSQL, backend, and frontend images used by the 
 
 ![Docker Images](Screenshots/04-docker-images.png)
 
----
-
----
 
 
 ---
@@ -656,8 +653,6 @@ By completing this project, I practiced how to:
 * Manage multiple services together
 * Inspect containers, images, volumes, and logs
 * Troubleshoot a containerized application
-
----
 
 
 
