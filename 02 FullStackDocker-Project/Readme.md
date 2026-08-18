@@ -604,7 +604,7 @@ docker compose logs database
 
 The frontend application successfully running from the Dockerized environment.
 
-![Application Running](docs/screenshots/01-application-running.png)
+![Application Running](Screenshots/01-Frontend.png)
 
 ---
 
@@ -612,7 +612,7 @@ The frontend application successfully running from the Dockerized environment.
 
 The Compose configuration showing the frontend, backend, PostgreSQL database, network, and persistent volume.
 
-![Docker Compose](docs/screenshots/02-docker-compose.png)
+![Docker Compose](Screenshots/02-docker-compose-config.png)
 
 ---
 
@@ -620,7 +620,7 @@ The Compose configuration showing the frontend, backend, PostgreSQL database, ne
 
 Docker Desktop showing the running Compose application.
 
-![Running Containers](docs/screenshots/03-running-containers.png)
+![Running Containers](Screenshots/03-running-containers.png)
 
 ---
 
@@ -628,15 +628,9 @@ Docker Desktop showing the running Compose application.
 
 Docker Desktop showing the PostgreSQL, backend, and frontend images used by the application.
 
-![Docker Images](docs/screenshots/04-docker-images.png)
+![Docker Images](Screenshots/04-docker-images.png)
 
 ---
-
-### 5. Frontend Multi-Stage Dockerfile
-
-The frontend Dockerfile uses Node.js for building the application and Nginx as the final runtime server.
-
-![Frontend Dockerfile](docs/screenshots/05-frontend-dockerfile.png)
 
 ---
 
