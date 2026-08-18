@@ -640,47 +640,6 @@ The frontend Dockerfile uses Node.js for building the application and Nginx as t
 
 ---
 
-## 🧠 Key Docker Concepts Practiced
-
-### 1. Containerization
-
-The frontend and backend applications are packaged into independent containers.
-
-### 2. Multi-container Applications
-
-Docker Compose allows multiple services to run together as one application stack.
-
-### 3. Docker Networking
-
-Services communicate through a custom bridge network using service names.
-
-### 4. Persistent Volumes
-
-PostgreSQL data is stored separately from the database container.
-
-### 5. Environment Variables
-
-Database configuration is supplied through environment variables instead of being embedded into application code.
-
-### 6. Multi-stage Builds
-
-The frontend separates the build environment from the production serving environment.
-
-### 7. Service Dependencies
-
-`depends_on` is used to describe the dependency relationship between services.
-
-### 8. Port Mapping
-
-Host ports are mapped to container ports to expose required services.
-
-### 9. Image Management
-
-The project demonstrates building custom images for application services while using an official PostgreSQL image.
-
-### 10. Container Troubleshooting
-
-Docker Desktop and Compose logs were used to verify service startup and diagnose container behavior.
 
 ---
 
@@ -706,55 +665,17 @@ By completing this project, I practiced how to:
 
 ---
 
-## 🔮 Future Improvements
 
-Possible next steps for this project include:
-
-* [ ] Add proper `.env` and `.env.example` configuration
-* [ ] Add database and backend health checks
-* [ ] Improve service readiness handling
-* [ ] Add automated tests
-* [ ] Add GitHub Actions CI/CD
-* [ ] Optimize Docker images further
-* [ ] Deploy the application to AWS
-* [ ] Create Kubernetes manifests
-* [ ] Deploy the application using Kubernetes
 
 ---
 
-## 📚 Project Context
 
-This project is part of my **AI Engineer learning journey**.
-
-Before moving deeper into backend development and AI systems, I am strengthening the software engineering foundation required to build, containerize, deploy, and operate real applications.
-
-The project builds on my previous work with **SQL and PostgreSQL** and adds practical Docker/containerization skills to the stack.
-
----
 
 ## 👤 Author
 
 **Aditya Kumar Singh**
 
-AI Engineer in progress — building strong foundations across:
 
-```text
-Python
-  ↓
-SQL & PostgreSQL
-  ↓
-Linux
-  ↓
-Docker
-  ↓
-Backend Development
-  ↓
-Cloud & Deployment
-  ↓
-LLM Applications
-  ↓
-RAG & AI Agents
-```
 
 ---
 
